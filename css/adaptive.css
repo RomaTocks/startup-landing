@@ -119,6 +119,19 @@
         text-align: center;
     }
 
+    #testimonials {
+        height: 2600px;
+    }
+    .testimonials-container .items .row:last-child {
+        display: none;
+    }
+    .testimonials-container .items .row {
+        flex-direction: column;
+    }
+    .testimonials-container .items .card {
+        margin: 50px 0px;
+    }
+
  }
 
 @media (min-width: 576px) and (max-width:767px) {
@@ -222,6 +235,20 @@
     }
     .partners-container .icons *:nth-last-child(-n+2) {
         display: none;
+    }
+
+
+    #testimonials {
+        height: 2600px;
+    }
+    .testimonials-container .items .row:last-child {
+        display: none;
+    }
+    .testimonials-container .items .row {
+        flex-direction: column;
+    }
+    .testimonials-container .items .card {
+        margin: 50px 0px;
     }
 }
 
@@ -328,7 +355,6 @@
     #partners {
         height: 1200px;
     }
-
     .partners-container .icons {
         display: flex;
         flex-direction: column;
@@ -339,10 +365,25 @@
         padding: 25px;
     }
 
+    /* Testimonials */
+
+    #testimonials {
+        height: 2600px;
+    }
+    .testimonials-container .items .row:last-child {
+        display: none;
+    }
+    .testimonials-container .items .row {
+        flex-direction: column;
+    }
+    .testimonials-container .items .card {
+        margin: 50px 0px;
+    }
+
 }
 
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width:1200px) { 
+@media (min-width: 991px) and (max-width:1200px) { 
 
     /* Header */
 
@@ -405,6 +446,10 @@
         text-align: center !important;
     }
 
+    .testimonials-container .items .row .card:nth-child(2) {
+        display: none;
+     }
+
 }
 
 /* // X-Large devices (large desktops, 1200px and up) */
@@ -414,7 +459,11 @@
     }
     .features-container .content .image img {
         height: 625px;
-     }
+    }
+    .testimonials-container .items .row .card:nth-child(2) {
+       display: none;
+    }
+
 }
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
