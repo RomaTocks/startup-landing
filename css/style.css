@@ -258,6 +258,7 @@ header {
 }
 
 /* Testimonials */
+
 #testimonials {
     height: 1700px;
 }
@@ -313,4 +314,62 @@ header {
     margin: 0px 60px;
     width: 335px;
     height: 540px;
+}
+
+/* Price */
+
+#price {
+    height: 460px;
+    background: var(--background-dark);
+}
+.price-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    padding: 0px 40px;
+    
+}
+.price-container * {
+    color: var(--text-light);
+}
+.price-container .column {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.price-container .column  .text p {
+    width: 400px;
+    text-align: justify;
+    font-weight: 400;
+}
+.price-container .column  .text h1 {
+    width: 400px;
+    text-align: justify;
+    margin-bottom: 25px;
+}
+.price-container .column h4 {
+    width: 400px;
+    text-align: justify;
+    margin-bottom: 25px;
+}
+.price-container .column .block  .row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+.price-container .column .block {
+   width: 400px;
+}
+.price-container .column .block .row  h4{
+   align-self: flex-end;
+}
+.price-container .column .block .action button {
+    background-color: var(--color-primary);
+    color: var(--text-light);
+    font-weight: 500 !important;
 }
