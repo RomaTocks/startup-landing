@@ -228,3 +228,31 @@ header {
    color: var(--text-light);
    font-weight: 500 !important;
 }
+
+/* Partners */
+
+#partners {
+    height: 630px ;
+}
+.partners-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+.partners-container .action button {
+    background: var(--color-primary);
+    color: var(--text-light);
+    font-weight: 500;
+}
+.partners-container .icons {
+    width:  100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.partners-container .text {
+    width: 400px;
+    text-align: center;
+}
