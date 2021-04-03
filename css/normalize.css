@@ -14,28 +14,34 @@ h1 {
     font-weight: 900;
     font-size: 55px;
     line-height: 65px;
+    text-align: center;
 }
 h2 {
     font-weight: normal;
     font-size: 46px;
     line-height: 57px;
+    text-align: center;
 }
 h3 {
     font-weight: bold;
     font-size: 22px;
     line-height: 33px;
+    text-align: center;
 }
 h4 {
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;
+    text-align: center;
 }
 h5 {
     font-weight: bold;
     font-size: 12px;
     line-height: 18px;
+    text-align: center;
 }
 a {
+    text-decoration: none;
     font-weight: normal;
     font-size: 15px;
     line-height: 27px;
@@ -45,8 +51,20 @@ p {
     font-size: 18px;
     line-height: 27px;
 }
+ul {
+    list-style-type: none;
+}
 button {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 33px;
+    border: 0;
+    background-color: white;
+}
+input {
     font-weight: 500;
     font-size: 16px;
     line-height: 16px;
+    border: 0;
 }

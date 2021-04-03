@@ -1,0 +1,107 @@
+/* Large devices (desktops, less than 1200px) */
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width:576px) {
+    .header-container {
+        width: 100%;
+    }
+    header .header {
+        padding: 20px 0px !important;
+    }
+    header .header-container .navbar .content .navigation {
+        display: none;
+    }
+    header .header-container .navbar .content .actions {
+        display: none;
+    }
+    header .header-container .header img {
+        height: 200px;
+    }
+    header .header .text {
+        width: 80%;
+    }
+    header .header .notebook {
+        padding: 100px 0px !important;
+    }
+ }
+
+@media (min-width: 576px) and (max-width:767px) {
+    header .header-container .navbar .content .navigation {
+        display: none;
+    }
+    header .header-container .navbar .content .actions {
+        display: none;
+    }
+    header .header-container .header img {
+        height: 300px;
+    }
+    header .header .text {
+        width: 80%;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width:767px) and (max-width:991px) {
+    header .header-container .navbar .content .navigation {
+        display: none;
+    }
+    header .header-container .navbar .content .actions {
+        display: none;
+    }
+
+    /* Header */
+
+    header .header {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+        padding: 115px 10px 0 10px;
+    }
+
+    header .header-container .header img {
+        height: 350px;
+    }
+
+    header .navbar {
+        padding: 20px;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    header .navbar .content {
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width:1200px) { 
+    header .header-container .navbar .content {
+        width: 100%;
+        justify-content: flex-end;
+    }
+
+    header .header-container .navbar .content .navigation {
+        display: none;
+    }
+
+    header .header-container .header img {
+        height: 450px;
+    }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width:1400px) {
+    .hamburger {
+        display: none;
+    }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    .hamburger {
+        display: none;
+    }
+  }
+
+

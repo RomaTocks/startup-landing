@@ -5,17 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Startup</title>
-    <link rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/adaptive.css">
 </head>
 <body>
     <header>
-        <div class="container">
-            <nav>
+        <div class="header-container">
+            <nav class="navbar">
                 <div class="logo">
                     <img src="./pics/dark.svg">
                 </div>
                 <div class="content">
-                    <ul class="navigation">
+                    <ul class="navigation color-text-light">
                         <li>
                             <a href="#">Home</a>
                         </li>
@@ -31,16 +34,29 @@
                         <li>
                             <a href="#">Contact</a>
                         </li>
-                        <li>
-
-                        </li>
                     </ul>
+                    <div class="actions">
+                        <input class="input" placeholder="Input your e-mail">
+                        <button class="button color-primary">Subscribe</button>
+                    </div>
+                    <div class="hamburger">
+                        <img src="./pics/bx_bx-menu-alt-right.svg">
+                    </div>
                 </div>
             </nav>
             <div class="header">
-
+                <div class="text">
+                    <h3>At your fingertips</h3>
+                    <h1>Lighting fast prototyping</h1>
+                    <h4>Most calendars are designed for teams. State is designed for freelancers</h4>
+                </div>
+                <div class="try-button">
+                    <button class="button color-primary">Try For Free</button>
+                </div>
+                <div class="notebook">
+                    <img src="./pics/@ Macbook Pro.svg">
+                </div>
             </div>
-            <img src="./pics/@ Gradient.svg">
         </div>
     </header>
 </body>
