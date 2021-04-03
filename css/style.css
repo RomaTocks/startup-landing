@@ -61,6 +61,9 @@ header {
 .actions {
     display: flex;
 }
+.actions button {
+    font-weight: 500 !important;
+}
 .header-container .header {
     display: flex;
     flex-direction: column;
@@ -94,7 +97,7 @@ header {
     margin-top: 15px;
 }
 
-/* Header end. */
+/* Features */
 
 #features {
     height: 1100px;
@@ -137,4 +140,46 @@ header {
 }
 .features-container .content .text .title h3 {
     margin-left: 15px;
+}
+
+/* Buttons */
+
+#buttons {
+    height: 520px;
+    background: var(--background-gradient) ;
+}
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.buttons-container .text {
+    margin-bottom: 90px;
+}
+.buttons-container .text * {
+    color: var(--text-light);
+    padding-bottom: 20px;
+}
+.buttons-container .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.buttons-container .buttons button {
+    font-weight: 500;
+}
+.buttons-container .buttons button:first-child {
+   margin-right: 15px;
+}
+.transparent-button {
+    padding: 14px 35px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 35px;
+    color: var(--text-light);
+    background: transparent;
+    font-weight: 500;
 }
