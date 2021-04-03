@@ -58,6 +58,44 @@
         margin-bottom: 30px;
     }
 
+    /* NewsLetter */
+
+    #newsletter {
+        height: 1100px;
+    }
+
+    .news-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100%;
+    }
+    .news-container .block .action-block .action {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 350px;
+        
+    }
+    .news-container .block .action-block .action * {
+        width: 300px;
+    }
+    .news-container .block .action-block .action *:first-child {
+        margin-bottom: 15px;
+        margin-right: 0; 
+    }
+    .news-container .block .action-block .title *{
+        text-align: center !important;
+    }
+    .news-container .block .text {
+        text-align: center !important;
+        width: 350px;
+    }
+    .news-container .image img {
+        width: 350px;
+    }
+
  }
 
 @media (min-width: 576px) and (max-width:767px) {
@@ -106,6 +144,41 @@
     .buttons-container .text {
         width: 400px;
     }
+
+    /* NewsLetter */
+    #newsletter {
+        height: 1100px;
+    }
+
+    .news-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100%;
+    }
+    .news-container .block .action-block .action {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .news-container .block .action-block .action * {
+        width: 300px;
+    }
+    .news-container .block .action-block .action *:first-child {
+        margin-bottom: 15px;
+        margin-right: 0; 
+    }
+    .news-container .block .action-block .title *{
+        text-align: center !important;
+    }
+    .news-container .block .text {
+        text-align: center !important;
+    }
+    .news-container .image img{
+        width: 350px;
+    }
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -150,7 +223,7 @@
         align-items: center;
     }
 
-    /* Header */
+    /* Features */
 
     #features {
         height: 1200px;
@@ -168,6 +241,42 @@
     }
     .features-container .content .text {
         width: 450px;
+    }
+
+    /* NewsLetter */
+
+    #newsletter {
+        height: 1050px;
+    }
+
+    .news-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100%;
+    }
+    .news-container .block .action-block .action {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .news-container .block .action-block .action * {
+        width: 300px;
+    }
+    .news-container .block .action-block .action *:first-child {
+        margin-bottom: 15px;
+        margin-right: 0; 
+    }
+    .news-container .block .action-block .title *{
+        text-align: center !important;
+    }
+    .news-container .block .text {
+        text-align: center !important;
+    }
+    .news-container .image img {
+        width: 500px;
     }
 
 }
@@ -197,11 +306,44 @@
         height: 450px;
     }
 
-    /* Header */
+    /* Features */
 
     .features-container .content .image img {
         height: 550px;
+    }
+
+     /* Newsletter */
+
+     #newsletter {
+         height: 1000px;
      }
+     .news-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100%;
+    }
+
+    .news-container .block .action-block .action {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .news-container .block .action-block .action * {
+        width: 300px;
+    }
+    .news-container .block .action-block .action *:first-child {
+        margin-bottom: 15px;
+        margin-right: 0; 
+    }
+    .news-container .block .action-block .title *{
+        text-align: center !important;
+    }
+    .news-container .block .text {
+        text-align: center !important;
+    }
 
 }
 
